@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <script src="https://kit.fontawesome.com/5af66317b5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./index.css"/>
+</head>
+<body>
+    <div style="text-align: center;"  class="container">
+        
+            <div class="music-player">
+                <img src="without-you.jpg" class="song-image"/>
+            </div>
+
+    <audio style="text-align: center;" id="audioPlayer">
+        <source
+        src="https://edyoda.s3.ap-south-1.amazonaws.com/public/musicfiles/without-you.mp3"/>
+    </audio>
+    <br />
+    <br />
+    <button id="backward"><i class="fa-solid fa-backward"></i></button>
+    <button id="playBtn"><i class="fa-solid fa-play"></i></button>
+    
+    <button id="forwrad"><i class="fa-solid fa-forward"></i></button>
+    <button id="pausebutton"><i class="fa-solid fa-pause"></i></button>
+    <button id="restartbtn"><i class="fa-solid fa-reply"></i></button>
+    <button id="halfspeed">0.5x</button>
+    <button id="normal">1x</button>
+    <button id="double">2x</button>
+    <button id="highspeed">5x</button>
+    <div id="progress-wrapper">
+        <div id="progress-bar">
+
+        </div>
+
+    </div>
+</div>
+</div>
+<script src="./index.js"> </script>
+    
+</body>
+</html>
